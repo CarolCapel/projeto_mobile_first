@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container" class="container">
+
+            <input type="checkbox" id="menu" class="container__botao">
+
+            <label for="menu" class="container__rotulo">
+
+                <span class="cabecalho_menu-hamburguer container__imagem"></span>
+
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo"> Categorias </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Social Media </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Campanhas </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Ilustrações </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Sobre Mim </a>
+                </li>
+
+            </ul>
+            <img src="./img/Logo.png" alt="Logo Do Henrique" class="cabecalho__logo">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Henrique</b>V.</h1>
+
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item"> Categorias </li>
+            </label> 
+            <ul class="lista-menu">
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Social Media </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Campanhas </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Ilustrações </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> 3D </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Anúncios </a>
+                </li>
+
+            </ul>
+
+            <li class="opcoes__item"><a href="" class="opcoes__link"> Favoritos </a></li>
+            <li class="opcoes__item"><a href="" class="opcoes__link"> Contato </a></li>
+
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="./img/Favoritos.png" alt="Icone de Favoritos"
+                    class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="./img/Compras.png" alt="Icone de Carrinho de Compras" class="container__imagem">
+                <p class="container__texto"> Orçamento </p>
+            </a>
+            <a href="#" class="container__link">
+
+                <img src="./img/Usuario.png" alt="Icone de Usuario" class="container__imagem">
+
+                <p class="container__texto">Sobre Mim </p>
+
+            </a>
+
+        </div>
+
+
+    </header>
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">
+        Quer conhecer mais sobre as artes?
+        </h2>
+        <p class="banner__texto">
+           Aqui tem meu Portfólio para você conhecer o meu trabalho.
+        </p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual Projeto você quer ver?">
+    </section>
+
+
+    <section class="carrosel">
+        <h2 class="carrosel__titulo"> Campanhas </h2>
+
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <!-- If we need pagination -->
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+
+                <!-- Slides -->
+
+                <div class="swiper-slide"><img src="./img/1.png" alt="Campanha Ovo de Páscoa"></div>
+                <div class="swiper-slide"><img src="./img/2.png" alt="Campanha Eco"></div>
+                <div class="swiper-slide"><img src="./img/3.png" alt="Campanha Civesa "></div>
+                <div class="swiper-slide"><img src="./img/4.png" alt="Campanha Radio Conecta"></div>
+                <div class="swiper-slide"><img src="./img/5.png" alt="Campanha Livraria Eureka"></div>
+                <div class="swiper-slide"><img src="./img/6.png" alt="Campanha Eco"></div>
+                <div class="swiper-slide"><img src="./img/7.png" alt="Campanha Radio Conecta"></div>
+                <div class="swiper-slide"><img src="./img/8.png" alt="Campanha Academia Valhalla"></div>
+
+                ...
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="card">
+            <!-- 1ª linha -->
+            <div class="card__descricao">
+                <!-- 1ª coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo"> O que é </h3>
+                    <h2 class="descricao__titulo-livro">Social Media? </h2>
+                    <p class="descricao_titulo_texto">
+                        É a aplicação do design digital, para a criação de artes e conteúdo para as mídias sociais como Facebook, Instagram, Youtube, Linkedin, Twitter e etc.
+                    </p>
+                </div>
+                <!-- 2ª coluna -->
+                <img src="./img/Foto 1.png" alt="Foto do Henrique" class="descricao__imagem">
+            </div>
+            <!-- 2ª Linha -->
+            <div class="card__botoes">
+
+                <!-- primeira coluna -->
+
+                <ul class="botoes">
+
+                    <li class="botoes__item">
+
+                        <img src="./img/Favoritos.png" alt="Icone de Favoritos em formato de coração">
+
+                    </li>
+
+                    <li class="botoes__item">
+
+                        <img src="./img/Compras.png" alt="Icone do Carrinho de Compras em formato de Sacola">
+
+                    </li>
+                </ul>
+
+                <!-- segunda coluna -->
+
+                <a href="#" class="botoes__ancora">
+                    Saiba Mais
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    </section>
+
+
+    <section class="carrosel">
+
+        <h2 class="carrosel__titulo"> Ilustrações </h2>
+
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <!-- If we need pagination -->
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+
+                <!-- Slides -->
+
+                <div class="swiper-slide"><img src="./img/9.png" alt="Capa do Livro Apache Kafka e Spring Boot">
+                </div>
+                <div class="swiper-slide"><img src="./img/10.png" alt="Capa do Livro Liderança em Design"></div>
+                <div class="swiper-slide"><img src="./img/11.png" alt="Capa do Livro JavaScript Acertivo"></div>
+                <div class="swiper-slide"><img src="./img/12.png" alt="Capa do Livro"></div>
+                <div class="swiper-slide"><img src="./img/13.png" alt="Capa do Livro"></div>
+                <div class="swiper-slide"><img src="./img/14.png" alt="Capa do Livro"></div>
+                <div class="swiper-slide"><img src="./img/15.png" alt="Capa do Livro"></div>
+                <div class="swiper-slide"><img src="./img/16.png" alt="Capa do Livro"></div>
+
+                ...
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="card">
+            <!-- 1ª linha -->
+            <div class="card__descricao">
+                <!-- 1ª coluna -->
+                <div class="descricao">
+                    <img src="./img/Estrelinhas.svg" alt="Avaliação 5 Estrelas">
+                    <h3 class="descricao__titulo"> Henrique L. Vigano </h3>
+                    <h2 class="descricao__titulo-livro"> 24 anos </h2>
+                    <p class="descricao_titulo_texto">
+                        Design grafico e Ilustração, Henrique é especialista.
+                    </p>
+                </div>
+                <!-- 2ª coluna -->
+                <img src="./img/Foto 2.png" alt="Foto da Autora Juliana Agarikov" class="descricao__imagem">
+            </div>
+            <!-- 2ª Linha -->
+            <div class="card__botoes">
+
+                <!-- primeira coluna -->
+
+                <ul class="botoes">
+
+                    <li class="botoes__item">
+
+                        <img src="./img/Favoritos.png" alt="Icone de Favoritos em formato de coração">
+
+                    </li>
+
+                    <li class="botoes__item">
+
+                        <img src="./img/Compras.png" alt="Icone do Carrinho de Compras em formato de Sacola">
+
+                    </li>
+                </ul>
+
+                <!-- segunda coluna -->
+
+                <a href="#" class="botoes__ancora">
+                    Saiba Mais
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+
+        <h2 class="topicos__titulo"> TÓPICOS VISITADOS RECENTEMENTE </h2>
+
+        <ul class="topicos__lista">
+
+            <li class="topicos__item"topicos__item"> <a href="#" class="topicos__links"> Ilustrações </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Campanhas</a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Maketing Digital </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Social Media </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Anúncios </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> 3D </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Design Grafico </a></li>
+            <li class="topicos__item"> <a href="#" class="topicos__links"> Orçamento </a></li>
+            
+        </ul>
+
+
+    </section>
+
+    <section class="contato">
+
+        <div class="contato__descricao">
+            <h2 class="contato__titulo"> Fique por dentro das novidades! </h2>
+
+            <p class="contato__texto"> Atualizações das Ilustrações, novos Anúncios, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="   Cadastre seu e-mail" class="contato__email">
+
+    </section>
+
+    <hr>
+
+    <footer class="rodape">
+
+        <h2 class="rodape__titulo__logo"> By: Carol Capel </h2>
+
+        <ul class="lista__rodape">
+
+            <li class="rodape__titulo"> Creditos: </li>
+
+            <li class="lista__rodape__item"> </li><a href="#"
+                    class="lista__rodape__link"></a>Desenvolvedora: Carol Capel </li>
+
+            <li class="lista__rodape__item"><a href="#"
+                    class="lista__rodape__link"></a> Artes: Henrique V.</li>
+
+
+        </ul>
+        <ul class="lista__rodape">
+
+            <li class="rodape__titulo"> Carol Capel </li>
+
+            <li class="lista__rodape__item"><a href="https://www.linkedin.com/in/ana-carolina-capel-c-194b601b4/"
+                    class="lista__rodape__link"><img src="./img/linkedin .png" alt="Logo Linkedin">Linkedin</a></li>
+
+            <li class="lista__rodape__item"><img src="./img/GitHub.png" alt="Logo GitHub"><a
+                    href="https://github.com/CarolCapel" class="lista__rodape__link">GitHub</a></li>
+
+            <li class="lista__rodape__item"><img src="./img/instagram.png" alt="Logo Instagram"><a href="#"
+                    class="lista__rodape__link">Instagram</a></li>
+
+            
+
+        </ul>
+
+        <ul class="lista__rodape">
+
+            <li class="rodape__titulo"> Henrique V. </li>
+
+            <li class="lista__rodape__item"><img src="./img/linkedin .png" alt="Logo Linkedin"><a
+                    href="#" class="lista__rodape__link">Linkedin</a></li>
+
+            <li class="lista__rodape__item"><img src="./img/PM3.svg" alt="Logo Behance"><a href="https://www.behance.net/hlvigano"
+                    class="lista__rodape__link">Behance</a></li>
+
+            <li class="lista__rodape__item"><img src="./img/instagram.png" alt="Logo Layers ponto Tech"><a
+                    href="#" class="lista__rodape__link">Instagram</a></li>
+
+          
+
+         
+        </ul>
+
+
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+
+    </script>
+
+
+</body>
+
+</html>
